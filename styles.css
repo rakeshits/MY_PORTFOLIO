@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header .profile {
+    flex-shrink: 0;
+}
+
+header .profile-img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+header .info {
+    max-width: 600px;
+    text-align: left;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.contact-info p {
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+section {
+    padding: 20px 0;
+}
+
+section h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.job ul li {
+    margin-bottom: 5px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills ul li {
+    background-color: #e2e2e2;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+.certificates ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.certificates ul li {
+    background-color: #e2e2e2;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+
+.certificates ul li strong {
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+nav{
+    background-color: black;
+    padding: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+  }
+  a:hover{
+    color: red;
+  }
+  footer{
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    color: white;
+  }
+  
